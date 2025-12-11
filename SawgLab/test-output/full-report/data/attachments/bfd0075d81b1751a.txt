@@ -1,0 +1,428 @@
+[DEBUG] - [11-12-2025 18:22:09] [main] [org.testng.TestNG] - suiteXmlPath: "D:\projectavr\ITI\Project\AutomationProject\SawgLab\test.xml"
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.listeners.TestNGListeners] - Test Execution started
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.utils.FileUtils] - File deleted: D:\projectavr\ITI\Project\AutomationProject\SawgLab\test-output\Logs\logs.log
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.utils.FileUtils] - Directory created: test-output/screenshots/
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.utils.FileUtils] - Directory created: test-output/recordings/
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.utils.FileUtils] - Directory created: src/test/resources/downloads/
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.listeners.TestNGListeners] - Directories created
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.utils.dataReader.PropertyReader] - Properties file loaded successfully
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.listeners.TestNGListeners] - Properties loaded
+[INFO] - [11-12-2025 18:22:10] [main] [com.swagLabs.utils.report.AllureEnvironmentManager] - Allure environment variables set.
+[INFO] - [11-12-2025 18:22:27] [main] [com.swagLabs.utils.report.AllureBinaryManager] - Allure binaries downloaded and extracted.
+[INFO] - [11-12-2025 18:22:27] [main] [com.swagLabs.listeners.TestNGListeners] - Allure environment set
+[INFO] - [11-12-2025 18:22:28] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  D:\projectavr\ITI\Project\AutomationProject\SawgLab\test.xml
+
+[INFO] - [11-12-2025 18:22:28] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:28] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:22:33] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case loginWithValidDataTC started
+[INFO] - [11-12-2025 18:22:34] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[DEBUG] - [11-12-2025 18:22:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validUsername']
+[INFO] - [11-12-2025 18:22:35] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[DEBUG] - [11-12-2025 18:22:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['validPassword']
+[INFO] - [11-12-2025 18:22:35] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:22:35] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:35] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:35] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[DEBUG] - [11-12-2025 18:22:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['inventoryUrl']
+[INFO] - [11-12-2025 18:22:35] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:35] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:36] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case loginWithValidDataTC passed
+[INFO] - [11-12-2025 18:22:36] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:36] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:36] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:22:38] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case addItemsToCartTC started
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:39] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.id: remove-sauce-labs-backpack - Text: Remove
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.id: remove-sauce-labs-fleece-jacket - Text: Remove
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: [data-test='shopping-cart-badge'] - Text: 2
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case addItemsToCartTC passed
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case removeItemsFromCartTC started
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: remove-sauce-labs-backpack
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.id: add-to-cart-sauce-labs-backpack - Text: Add to cart
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: [data-test='shopping-cart-badge'] - Text: 1
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:40] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case removeItemsFromCartTC passed
+[INFO] - [11-12-2025 18:22:40] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case sortItemsByNameZToATC started
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Selected value 'Name (Z to A)' from dropdown: By.cssSelector: [data-test='product-sort-container']
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_name - Text: Test.allTheThings() T-Shirt (Red)
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_name - Text: Sauce Labs Onesie
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_name - Text: Sauce Labs Fleece Jacket
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_name - Text: Sauce Labs Bolt T-Shirt
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_name - Text: Sauce Labs Bike Light
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_name - Text: Sauce Labs Backpack
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case sortItemsByNameZToATC passed
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case sortItemsByPriceLowToHighTC started
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Selected value 'Price (low to high)' from dropdown: By.cssSelector: [data-test='product-sort-container']
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_price - Text: $7.99
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_price - Text: $9.99
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_price - Text: $15.99
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_price - Text: $15.99
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_price - Text: $29.99
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: .inventory_item_price - Text: $49.99
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:41] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:41] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case sortItemsByPriceLowToHighTC passed
+[INFO] - [11-12-2025 18:22:42] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:42] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:42] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:22:44] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:22:44] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:22:44] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:22:44] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 268)
+[INFO] - [11-12-2025 18:22:44] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 268)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.id: remove-sauce-labs-backpack - Text: Remove
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.id: remove-sauce-labs-fleece-jacket - Text: Remove
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.id: remove-test.allthethings()-t-shirt-(red) - Text: Remove
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: [data-test='shopping-cart-badge'] - Text: 3
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case Checkout started
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:45] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case Checkout passed
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case ContinueShopping started
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 820)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 820)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: continue-shopping
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case ContinueShopping passed
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case checkingProductsIsFoundedInCardPage started
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:46] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //div[.='Sauce Labs Backpack'] - Text: Sauce Labs Backpack
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //div[.='Sauce Labs Fleece Jacket'] - Text: Sauce Labs Fleece Jacket
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.xpath: //div[.='Test.allTheThings() T-Shirt (Red)'] - Text: Test.allTheThings() T-Shirt (Red)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case checkingProductsIsFoundedInCardPage passed
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case checkingProductsIsRemovedOnCardPage started
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (565, 725)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (565, 725)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: remove-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.actions.ElementActions] - Retrieved text from element: By.cssSelector: [data-test='shopping-cart-badge'] - Text: 2
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:47] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case checkingProductsIsRemovedOnCardPage passed
+[INFO] - [11-12-2025 18:22:47] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:48] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:48] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:22:49] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:50] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case CheckoutWithValidDataTc started
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'abcde' into element: By.id: first-name
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'aaaa' into element: By.id: last-name
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text '123456' into element: By.id: postal-code
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (526, 417)
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (526, 417)
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: continue
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:51] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case CheckoutWithValidDataTc passed
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:51] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:22:54] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:22:54] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:22:54] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:22:54] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:54] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case VerifyCancelation started
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 417)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 417)
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: cancel
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:55] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case VerifyCancelation passed
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:55] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:22:57] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'abcde' into element: By.id: first-name
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'aaaa' into element: By.id: last-name
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text '123456' into element: By.id: postal-code
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (526, 417)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (526, 417)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: continue
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case CartIsReset started
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 1209)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 1209)
+[INFO] - [11-12-2025 18:22:58] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: finish
+[INFO] - [11-12-2025 18:22:59] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:22:59] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:22:59] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case CartIsReset passed
+[INFO] - [11-12-2025 18:22:59] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:22:59] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:22:59] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:23:01] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'abcde' into element: By.id: first-name
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'aaaa' into element: By.id: last-name
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text '123456' into element: By.id: postal-code
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (526, 417)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (526, 417)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: continue
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case SuccessfullyNavigatesBackToInventoryPage started
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 1160)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 1160)
+[INFO] - [11-12-2025 18:23:02] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: cancel
+[INFO] - [11-12-2025 18:23:03] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:03] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:23:03] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case SuccessfullyNavigatesBackToInventoryPage passed
+[INFO] - [11-12-2025 18:23:03] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:23:03] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:23:03] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:23:05] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'abcde' into element: By.id: first-name
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'aaaa' into element: By.id: last-name
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text '123456' into element: By.id: postal-code
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (526, 417)
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (526, 417)
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: continue
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case SuccessfullyNavigatesToOrderConfirmationPage started
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 1209)
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 1209)
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: finish
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:06] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case SuccessfullyNavigatesToOrderConfirmationPage passed
+[INFO] - [11-12-2025 18:23:06] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:23:07] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:23:07] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 339)
+[INFO] - [11-12-2025 18:23:08] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 339)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1095)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1095)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (551, 1599)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (551, 1599)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (701, 10)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (701, 10)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 869)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 869)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: checkout
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'abcde' into element: By.id: first-name
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'aaaa' into element: By.id: last-name
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text '123456' into element: By.id: postal-code
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (526, 417)
+[INFO] - [11-12-2025 18:23:09] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (526, 417)
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: continue
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 1209)
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 1209)
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: finish
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case SuccessfullyNavigatesToProductsPage started
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (15, 457)
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (15, 457)
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: back-to-products
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:10] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case SuccessfullyNavigatesToProductsPage passed
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:23:10] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 268)
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 268)
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case navigateToFacebookTC started
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (355, 1765)
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (355, 1765)
+[INFO] - [11-12-2025 18:23:12] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='social-facebook']
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:14] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case navigateToFacebookTC passed
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case navigateToLinkedinTC started
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (405, 1765)
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (405, 1765)
+[INFO] - [11-12-2025 18:23:14] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='social-linkedin']
+[INFO] - [11-12-2025 18:23:15] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:15] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:23:16] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case navigateToLinkedinTC passed
+[INFO] - [11-12-2025 18:23:16] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:23:16] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case navigateToTwitterTC started
+[INFO] - [11-12-2025 18:23:16] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (305, 1765)
+[INFO] - [11-12-2025 18:23:16] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (305, 1765)
+[INFO] - [11-12-2025 18:23:16] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [data-test='social-twitter']
+[INFO] - [11-12-2025 18:23:20] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:20] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots
+[INFO] - [11-12-2025 18:23:20] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case navigateToTwitterTC passed
+[INFO] - [11-12-2025 18:23:21] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [11-12-2025 18:23:22] [main] [com.swagLabs.drivers.GUIDriver] - Initializing GUIDriver with browser: Edge
+[INFO] - [11-12-2025 18:23:22] [main] [com.swagLabs.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (114, 272)
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: login-button
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.listeners.TestNGListeners] - Test Case logoutTC started
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (20, 20)
+[INFO] - [11-12-2025 18:23:24] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (20, 20)
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: react-burger-menu-btn
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (-276, 136)
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (-276, 136)
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.ElementActions] - initialLocation: (-103, 136)
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.ElementActions] - finalLocation: (-103, 136)
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.ElementActions] - Clicked on element: By.id: logout_sidebar_link
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.actions.BrowserActions] - Navigated back to URL: https://www.saucedemo.com/
+[INFO] - [11-12-2025 18:23:25] [main] [com.swagLabs.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[ERROR] - [11-12-2025 18:23:25] [main] [com.swagLabs.utils.report.AllureAttachmentManager] - Error attaching screenshot test-output\screenshots

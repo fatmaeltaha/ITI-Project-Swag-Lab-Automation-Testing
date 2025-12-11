@@ -1,0 +1,12 @@
+{
+  "validUsername": "standard_user",
+  "validPassword": "secret_sauce",
+  "invalidUsername": "user",
+  "invalidPassword": "test123",
+  "inventoryUrl": "https://www.saucedemo.com/inventory.html",
+  "message": {
+    "errorForInvalidData": "Epic sadface: Username and password do not match any user in this service",
+    "errorForEmptyPassword": "Epic sadface: Password is required",
+    "errorForEmptyUsername": "Epic sadface: Username is required"
+  }
+}

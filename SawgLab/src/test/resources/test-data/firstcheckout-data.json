@@ -1,0 +1,17 @@
+{
+  "validFirstName" : "abcde" ,
+  "validLastName" : "aaaa" ,
+  "validPostalCode" : "123456" ,
+  "invalidFirstName_LessThan3Chars" : "m" ,
+  "invalidFirstName_Exceeds30Chars" : "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm" ,
+  "invalidLastName_LessThan3Chars" : "n" ,
+  "invalidLastName_Exceeds30Chars" : "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm" ,
+  "SecondCheckoutPageUrl" : "https://www.saucedemo.com/checkout-step-two.html",
+  "CartPageUrl": "https://www.saucedemo.com/cart.html",
+  "ErrorMessageforinvalidFirstName" : "Error: first name must be at least 3 Characters" ,
+  "ErrorMessageforinvalidLastName" : "Error: last name must be at least 3 Characters" ,
+  "ErrorMessageforinvalidPostalCode":"Error: Postal Code must be at least 3 numbers",
+  "ErrorMessageforEmptyLastName" : "Error: Last Name is required",
+  "ErrorMessageforEmptyFirstName" : "Error: First Name is required" ,
+  "ErrorMessageforEmptyPostalCode" : "Error: Postal Code is required"
+}
